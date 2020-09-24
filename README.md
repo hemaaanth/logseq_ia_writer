@@ -1,5 +1,2 @@
-# logseq_ono-sendai
-a terminal-style dark theme for logseq
-
-![](https://raw.githubusercontent.com/cannibalox/logseq_ono-sendai/master/logseq_ono-sendai001.png)
-![](https://raw.githubusercontent.com/cannibalox/logseq_ono-sendai/master/logseq_ono-sendai002.png)
+# logseq_ia_writer
+An iA-Writer-inspired theme for Logseq. Work in progress.
