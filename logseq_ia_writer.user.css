@@ -27,7 +27,7 @@
 	--text-color: #a0a0a0;
 	--text-muted: #898b85;
 	--text-hover:#cbffce;
-	--text-accent:#fff;
+	--text-accent:#7799BB;
 	--text-accent2:#828282;
 	--text-contrast:#c8c8c8;
     	--text-accent3: #e1ffdf;
@@ -185,13 +185,13 @@ a.tag {
     background-color: var(--text-links);
 }
 a.tag[href*="important"] {
-  background-color: #ffa9a9;
+  background-color: #BA8DB3;
 }    
 a.tag[href*="inprogress"] {
-  background-color: #ffeaba;
+  background-color: #C1944E;
 }       
 a.tag[href*="done"] {
-  background-color: #d5ffce;
+  background-color: #82A570;
 }      
 
 /*=== tree lines ===*/	
@@ -387,15 +387,15 @@ button.inline-flex.justify-center.w-full.rounded-md.border.border-transparent.px
 	font-weight: 700;
 }
 #waiting {
-	color: #fae257;		
+	color: #C1944E;		
 	}
 #done {
-	color: #d5e8d7;		
+	color: #82A570;		
 	}
 #canceled {
 	color: #a6e3ff;		
 	}
 .done {
-	color: #d5e8d7 !important;		
+	color: #82A570 !important;		
 }
 }
