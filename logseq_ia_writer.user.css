@@ -18,7 +18,7 @@
   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }	
 :root {
-	--bgcolor: #17191a;
+	--bgcolor: #181818;
 	--bgcolor-alt: rgba(22, 31, 35, .72);
 	--bgcolor-alt2: #1a1f20;
 	--bgcolor-alt3: #2f2f2f;
