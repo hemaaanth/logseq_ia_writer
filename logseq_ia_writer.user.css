@@ -11,11 +11,11 @@
 
 /* uncomment to use terminal pixel font	and add VT3232 to the font-family line 50
 @font-face {
-  font-family: 'VT323';
+  font-family: 'iA Writer Duo V';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('VT323 Regular'), local('VT323-Regular'), url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2isfFJU.woff2) format('woff2');
+  src: local('iA Writer Duo V'), local('iA Writer Duo V');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 */
@@ -31,23 +31,23 @@
 	--bgcolor: #17191a;
 	--bgcolor-alt: rgba(22, 31, 35, .72);
 	--bgcolor-alt2: #1a1f20;
-	--bgcolor-alt3: #000;
+	--bgcolor-alt3: #2f2f2f;
 	--bghover: #286c91;
 	--bgselected: #054669;
-	--text-color: #e6e6e6;
+	--text-color: #a0a0a0;
 	--text-muted: #898b85;
-	--text-hover:#77d47c;
-	--text-accent:#29b7f0;
-	--text-accent2:#235284;
-	--text-contrast:#df267c;
-    --text-accent3: #6bdf64;
-	--text-links: #23dd64;
+	--text-hover:#cbffce;
+	--text-accent:#fff;
+	--text-accent2:#828282;
+	--text-contrast:#c8c8c8;
+    	--text-accent3: #e1ffdf;
+	--text-links: #b1eeff;
 	--border: #374d57;
-	--highlight:#9ad94e;
-    --tagpills:#325dba;
+	--highlight:#e6ffc8;
+    	--tagpills:#808080;
 }
 html {
-    font-family: Oxygen mono, Consolas, monospace,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;
+    font-family: iA Writer Duo V, Consolas, monospace,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol!important;
 }		
 .dark-theme {
     color: var(--text-color);
@@ -72,7 +72,7 @@ html {
     background-color: var(--bgcolor-alt3) !important;
 }
 .p-1 > svg > g {
-	stroke:red !important;
+	stroke:#b3b3b3 !important;
     stroke-width: 100 !important;
 }	
 /*====NW search====*/
@@ -164,7 +164,7 @@ mark {
     background-color: var(--text-accent2);
 }
 .dark-theme .bullet-closed {
-    background-color: #10c354;
+    background-color: #baffd4;
 }
 .hd-control span.bullet-container {
     display: flex;
@@ -195,13 +195,13 @@ a.tag {
     background-color: var(--text-links);
 }
 a.tag[href*="important"] {
-  background-color: #af1414;
+  background-color: #ffa9a9;
 }    
 a.tag[href*="inprogress"] {
-  background-color: #c38b0a;
+  background-color: #ffeaba;
 }       
 a.tag[href*="done"] {
-  background-color: #24bb0a;
+  background-color: #d5ffce;
 }      
 
 /*=== tree lines ===*/	
@@ -211,7 +211,7 @@ a.tag[href*="done"] {
 /* === backlinks box ====*/ 	
 .dark-theme .bg-base-2 {
     background-color: var(--bgcolor-alt3);
-	font-size:13px;
+    font-size:1rem;
 }
 /* === blockquote ====*/ 	
 .dark-theme blockquote {
@@ -231,7 +231,7 @@ a.tag[href*="done"] {
 }
 .dark-theme :not(pre)>code {
     background: var(--bgcolor-alt3);
-    color: #ff5757;
+    color: #8d8d8d;
 }
 
 /* === right-sidebar ===*/
@@ -308,7 +308,7 @@ a.tag[href*="done"] {
 /* === NE top bar ===*/
 .bg-green-600 {
     --bg-opacity: 1;
-    background-color: #0c9a6d;
+    background-color: #bdf9e6;
     background-color: rgba(65,180,65,var(--bg-opacity));
 }
 /* === NE top bar ===*/
@@ -323,7 +323,7 @@ a.tag[href*="done"] {
 /* === SE help ==== */
 #help {
 	font-size : 20px;
-	color : #ff0000;
+	color : #ffcece;
 }	
 /*=== 3dots menu ===*/
 .py-1.rounded-md.shadow-xs.bg-base-3 {
@@ -358,7 +358,7 @@ button.inline-flex.justify-center.w-full.rounded-md.border.border-gray-300.px-4.
 	color: black;
 	}
 button.inline-flex.justify-center.w-full.rounded-md.border.border-transparent.px-4.py-2.bg-indigo-600 {
-	background-color: #ec149e !important;
+	background-color: #ffade1 !important;
 	color: #f1f1f1;
 	}
 /* === checkboxes ===*/
@@ -390,22 +390,22 @@ button.inline-flex.justify-center.w-full.rounded-md.border.border-transparent.px
     border: 1px solid;
 }
 #later, #doing {
-	color: #ff8400;		
+	color: #ffc88e;		
 }
 #now, #todo {
-	color: #ff3113;	
+	color: #ffbcb2;	
 	font-weight: 700;
 }
 #waiting {
 	color: #fae257;		
 	}
 #done {
-	color: #00ff18;		
+	color: #d5e8d7;		
 	}
 #canceled {
-	color: #21a8e6;		
+	color: #a6e3ff;		
 	}
 .done {
-	color: #00ff18 !important;		
+	color: #d5e8d7 !important;		
 }
 }
